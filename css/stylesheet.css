@@ -2,7 +2,7 @@
 body {
 	font-family: 'Lato', sans-serif;
 	font-size: 15px;
-	background-color: #cecece;
+	background-color: #ececec;
 }
 .small, small {
 	color: #a5a5a5;
@@ -87,6 +87,14 @@ nav {
 	font-weight: bold;
 	border-bottom: solid 4px #0f71b7;
 }
+.score {
+	border-radius: 20px;
+	float: right;
+	padding: 5px 30px;
+	word-wrap: normal;
+	font-weight: bold;
+	font-size: 130%;
+}
 .scoreinfo {
 	border-radius: 5px;
 }
@@ -118,6 +126,15 @@ nav {
 .bg-red {
 	background-color: #f0161a;
 }
+.text-green {
+	color: #4ccb25;
+}
+.text-yellow {
+	color: #fdcd2f;
+}
+.text-red {
+	color: #f0161a;
+}
 .pending {
 	background-color: #28394f;
 	color: #fff;
@@ -131,8 +148,12 @@ nav {
 }
 .profile-img-sm {
 	border-radius: 100%;
-	width: 40px;
-	height: 40px;
+	width: 35px;
+	height: 35px;
+}
+.myteam img {
+	position: relative;
+	top: 3px;
 }
 .main-tab {
 	color: #a5a5a5a;
@@ -154,4 +175,43 @@ nav {
 	border-top-left-radius: 8px !important;
 	border-top-right-radius: 8px !important;
 }
-
+.graph-left {
+	background-color: #28394f;
+	-webkit-border-top-left-radius: 8px;
+	-webkit-border-bottom-left-radius: 8px;
+	-moz-border-radius-topleft: 8px;
+	-moz-border-radius-bottomleft: 8px;
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px;
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	color: #fff;
+	min-height: 400px;
+}
+.graph-right {
+	background-color: #fff;
+	-webkit-border-top-right-radius: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+	-moz-border-radius-topright: 8px;
+	-moz-border-radius-bottomright: 8px;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	min-height: 400px;
+}
+.table thead th {
+	border: none;
+	border-bottom: solid 1px #ececec;
+	color: #b0b0b0 !important;
+}
+.table td, .table th {
+	border: none;
+	border-bottom: solid 1px #b0b0b0;
+	font-weight: normal;
+}
+.table th {
+	color: #ececec !important;
+}
