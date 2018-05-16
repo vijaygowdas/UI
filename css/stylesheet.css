@@ -13,6 +13,17 @@ p {
 nav {
 	background-color: #0f70b7;
 }
+
+.font-sm
+{
+	font-size: 90%;
+}
+
+.font-big
+{
+	font-size: 110%;
+}
+
 .nav-link {
 	opacity: 0.7 !important;
 }
@@ -256,4 +267,54 @@ footer {
 header
 {
 	background-color: #0f70b7;
+}
+.chat
+{
+	background-color: #fff;
+	border-radius: 5px;
+}
+
+.bg-chat
+{
+	background-color: #e8e8e8;
+	-webkit-border-bottom-right-radius: 8px;
+-webkit-border-bottom-left-radius: 8px;
+-moz-border-radius-bottomright: 8px;
+-moz-border-radius-bottomleft: 8px;
+border-bottom-right-radius: 8px;
+border-bottom-left-radius: 8px;
+}
+
+.write-comment
+{
+	border: none;
+	width: 100%;
+}
+
+.btn-review
+{
+	width: 90%;
+	background-color: #1373b9;
+	border: none;
+	padding: 10px;
+	padding-left: 100px;
+	border-radius: 5px;
+	color: #fff;
+	background-image: url(../images/star.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	cursor: pointer;
+}
+
+.chat-share img
+{
+	height: 20px;
+}
+
+footer img
+{
+	height: 25px;
 }
