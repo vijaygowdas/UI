@@ -14,6 +14,13 @@ nav {
 	background-color: #0f70b7;
 }
 
+.navbar-toggler
+{
+	background-image: url(../images/menu.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
 .font-sm
 {
 	font-size: 90%;
@@ -33,9 +40,9 @@ nav {
 .card {
 	border-radius: 8px;
 	border: none;
-	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4), 0 0 4px rgba(0, 0, 0, 0.1) inset;
-	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4), 0 0 4px rgba(0, 0, 0, 0.1) inset;
-	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4), 0 0 4px rgba(0, 0, 0, 0.1) inset;
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
 }
 .pf-img {
 	border-radius: 100%;
@@ -194,9 +201,9 @@ nav {
 	-moz-border-radius-bottomleft: 8px;
 	border-top-left-radius: 8px;
 	border-bottom-left-radius: 8px;
-	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
 	color: #fff;
 	min-height: 400px;
 }
@@ -208,9 +215,9 @@ nav {
 	-moz-border-radius-bottomright: 8px;
 	border-top-right-radius: 8px;
 	border-bottom-right-radius: 8px;
-	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
 	min-height: 400px;
 }
 .table thead th {
@@ -252,6 +259,34 @@ nav {
 	{
 		padding-left: 15px !important;
 	}
+	.nopadding
+	{
+		padding: 0px !important;
+	}
+	.menu-name
+	{
+		color: #fff;
+	position: relative;
+	top:4px;
+		display: inline-block !important;
+	}
+	.display-none-mobile
+	{
+		display: none;
+	}
+	.display-none-web
+{
+	display: block !important;
+}
+}
+.display-none-web
+{
+	display: none;
+}
+
+.menu-name
+{
+	display: none;
 }
 
 footer {
@@ -303,9 +338,9 @@ border-bottom-left-radius: 8px;
 	background-image: url(../images/star.png);
 	background-repeat: no-repeat;
 	background-size: contain;
-	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
 	cursor: pointer;
 }
 
@@ -317,4 +352,50 @@ border-bottom-left-radius: 8px;
 footer img
 {
 	height: 25px;
+}
+
+.bg-gray
+{
+	background-color: #ececec !important;
+}
+
+.pf-bg
+{
+	background-image: url(../images/pf-bg.png);
+	background-size: cover;
+}
+.comment-drop
+{
+	box-shadow: 0 0px 0px rgba(0, 0, 0, 0) !important;
+}
+
+.p-bar
+{
+	background-color: #a5a5a5;
+	width: 95%;
+	height: 4px;
+}
+
+.green-bar, .yellow-bar, .red-bar
+{	
+	height: 4px;
+}
+.green-bar
+{
+	width: 70%;
+}
+
+.yellow-bar
+{
+	width: 50%;
+}
+
+.red-bar
+{
+	width: 20%;
+}
+
+.text-black
+{
+	color: #000000;
 }

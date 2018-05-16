@@ -21,9 +21,9 @@
       <ul class="navbar-nav mr-auto">
       </ul>
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item"> <a class="nav-link" href="home.html"><img src="images/home.png" width="23px"></a> </li>
-        <li class="nav-item px-4"> <a class="nav-link active" href="dashboard.html"><img src="images/dashboard.png" width="21px"></a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#"><img src="images/steven.jpg" class="rounded-circle" width="28px"></a> </li>
+        <li class="nav-item"> <a class="nav-link" href="home.html"><img src="images/home_w.png" class="mr-2" width="23px"><span class="menu-name">Home</span></a> </li>
+        <li class="nav-item px-4 nopadding"> <a class="nav-link active" href="dashboard.html"><img src="images/dashboard.png" class="mr-2" width="21px"><span class="menu-name">Dashboard</span></a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#"><img src="images/steven.jpg" class="rounded-circle mr-2" width="28px"><span class="menu-name">Profile</span></a> </li>
       </ul>
     </div>
   </div>
@@ -35,25 +35,25 @@
    <!--Open Left Panel-->
     <div class="col-md-3 mt-4">
       <div class="card">
-        <div class="card-header text-center pt-4"> <img src="images/steven.jpg" class="img-thumbnail pf-img">
-          <h3 class="m-0 mt-2">Steven</h3>
-          <p class="small text-dark">Head Agency Development</p>
+        <div class="card-header text-center pt-5 pb-4 bg-gray pf-bg"> <img src="images/steven.jpg" class="img-thumbnail pf-img">
+          <h3 class="m-0 mt-2 text-white">Steven</h3>
+          <p class="small">Head Agency Development</p>
         </div>
         <div class="card-body pb-0">
           <ul class="list-unstyled">
             <li class="media"> <img class="pf-icon mr-2" src="images/type.png" alt="">
               <div class="media-body">
-                <p class="small m-0">Type</p>
+                <p class="font-sm">Type</p>
                 <b class="pf-tag">Insurance Company</b> </div>
             </li>
             <li class="media my-4"> <img class="pf-icon mr-2" src="images/id.png" alt="">
               <div class="media-body">
-                <p class="small m-0">Employee ID</p>
+                <p class="font-sm">Employee ID</p>
                 <b class="pf-tag">A3</b> </div>
             </li>
             <li class="media"> <img class="pf-icon mr-2" src="images/email.png" alt="">
               <div class="media-body">
-                <p class="small m-0">Email</p>
+                <p class="font-sm">Email</p>
                 <b class="pf-tag">steven@insurance.com</b> </div>
             </li>
           </ul>
@@ -67,11 +67,16 @@
 			<div class="col-12">
 				<div class="card">
 			<div class="card-body">
-			<ul class="nav tabs float-left">
+			<ul class="nav tabs float-left display-none-mobile">
                 <li class="nav-item"> <a class="nav-link active" href="#">Agency Performance</a> </li>
                 <li class="nav-item"> <a class="nav-link" href="#">Agent Productivity</a> </li>
                 <li class="nav-item"> <a class="nav-link" href="#">Activities</a> </li>
               </ul>
+              <select class="form-control mb-3 display-none-web">
+              	<option>Agency Performance</option>
+              	<option>Agent Productivity</option>
+              	<option>Activities</option>
+              </select>
               <span class="float-right">
               	<b>Ratings Value</b>
               	<p class="">
@@ -122,7 +127,7 @@
 		</div>
    <div class="row my-4">
 	   <div class="col-md-6 pr-0 pr-mobile">
-	   	<div class="graph-left p-3" style="background-color: #fff; color: #000">
+	   	<div class="bg-white text-black graph-left p-3">
 		<b>Activities</b>
 		<div class="small">Year To Date as on 13 Mar 2018</div>
   		<table class="table mt-4">
