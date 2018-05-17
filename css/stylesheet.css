@@ -311,9 +311,13 @@ header {
 	padding-left: 100px;
 	border-radius: 5px;
 	color: #fff;
-	background-image: url(../images/star.png);
-	background-repeat: no-repeat;
+	
+	
+	background-image: url(../images/star.png), url(../images/arrow.png);
+    background-position: left center, right center;
+    background-repeat: no-repeat, no-repeat;
 	background-size: contain;
+	
 	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
 	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
 	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
