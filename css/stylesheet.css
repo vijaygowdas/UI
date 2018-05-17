@@ -311,13 +311,10 @@ header {
 	padding-left: 100px;
 	border-radius: 5px;
 	color: #fff;
-	
-	
 	background-image: url(../images/star.png), url(../images/arrow.png);
-    background-position: left center, right center;
-    background-repeat: no-repeat, no-repeat;
+	background-position: left center, right center;
+	background-repeat: no-repeat, no-repeat;
 	background-size: contain;
-	
 	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
 	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
 	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
@@ -359,9 +356,11 @@ footer img {
 .text-black {
 	color: #000000;
 }
-.published
-{
+.published {
 	background-color: red;
 	border-radius: 20px;
 	color: #fff;
+}
+.pf-box {
+	word-break: break-all;
 }
